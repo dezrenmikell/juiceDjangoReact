@@ -1,7 +1,16 @@
 {
-    "name": "juice-django-react",
-    "scripts": {
-      "build": "cd client && npm install && npm run build && cd ..",
-      "postinstall": "npm run build && echo 'Client built!'"
-    }
+  "name": "juice-django-react",
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ..",
+    "postinstall": "npm run build && echo 'Client built!'"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
   }
+}
